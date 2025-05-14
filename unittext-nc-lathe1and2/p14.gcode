@@ -1,3 +1,8 @@
+;This is checked using https://ncviewer.com/
+;P1
+
+X60.0 Z30.0;
+
 G00 x60.0 z0;
 g01 x0 f0.25;
 G00 X30.0 Z5.0;
