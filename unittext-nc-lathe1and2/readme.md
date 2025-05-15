@@ -4,4 +4,4 @@ Use https://ncviewer.com/
 
 [NCプログラミング具体例](https://assets.new.siemens.com/siemens/assets/api/uuid:a342ce32-3ea7-4af4-97e4-77fd4bfc572e/NCSI-SP02-21.pdf#page=14)
 
-[Gocde具体例](https://assets.new.siemens.com/siemens/assets/api/uuid:a342ce32-3ea7-4af4-97e4-77fd4bfc572e/NCSI-SP02-21.pdf#page=14)
+[Gocde具体例](https://assets.new.siemens.com/siemens/assets/api/uuid:a342ce32-3ea7-4af4-97e4-77fd4bfc572e/NCSI-SP02-21.pdf#page=184)
