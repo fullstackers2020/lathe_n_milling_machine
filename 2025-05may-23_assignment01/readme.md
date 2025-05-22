@@ -1,7 +1,3 @@
-### simulation
+# g70 G71 G72の使い分け
 
-![movie](a.mkv)
- <video width="320" height="240" controls>
-  <source src="2025-05-23.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-</video> 
+https://shokunin-tenshoku.com/5911
