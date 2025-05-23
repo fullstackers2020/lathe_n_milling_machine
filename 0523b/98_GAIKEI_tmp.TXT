@@ -1,0 +1,18 @@
+N2; (98GAIKEI)
+G00 T___; (ENTRY)
+G50 S___; (ENTRY)
+G96 S___;  (ENTRY)
+G00 X60.0 Z0.0; (ENTRY)
+M01;
+G01 X60.0 Z0.0 F0.25 M03; (X Z F ENTRY)
+Z__ M08;
+X__ F__;
+G0 X__ Z__;
+G01 X__ Z__;
+Z__;
+X__;
+G00 X__ Z__ M09;
+X__ Z__ M05;
+G28 U0W0;
+M01;
+
