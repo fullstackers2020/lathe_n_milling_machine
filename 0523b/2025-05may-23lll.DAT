@@ -1,0 +1,60 @@
+/#region
+/$Lathe
+/$Millimeters
+/$Message "Hello World!" 5
+/$UseEmbeddedMaterial "Steel"
+/$DefineLatheWorkpiece "N:Part:M:Aluminium" 0 123.00 50.00 0.00
+/$AddDefinedPart 0
+/$ReadTasEmbeddedTool
+
+/#endregion
+
+/G92 Z100.0;
+
+(PREPARE)
+O0001; (KADAI01)
+N1; (ARA)
+
+(--->)
+G50 S2000; (MAX SPEED)
+G28 U0 W0; (MACHINE ORIGIN)
+(G00 T0101);
+G00 T2 M06;  (T2 TOOL CHANGE)
+G96 S120; (SPEED)
+(<---)
+
+(GO HOME)
+G00 X110.0 Z5.0;
+
+
+//G00 Z10.0 X110.0 M01; (WITH OPTIONAL STOP)
+
+//G00 X80.0 Z100.0 M01;
+//G01 X53.2 Z2.6 F1.0 M03; (WITH SPINDLE START)
+
+(GO CYCLE POINT)
+G00 M03; 
+G01 X68.0 Z4.0;
+
+G71 U3.0 R3.0;
+G0 X50.0 Z5.0
+G71 P500 Q600 U-0.5 W0.1 F0.25;
+(G71 P500 Q600 U-0.5 W0.1 F0.25)
+(G71 P500 Q600 U-0.5 W-98.2 F0.25
+
+G00 X68.0 Z-4.0;
+(CIRCLE START)
+N500 G00 G41 X68.0;
+     G01 Z-3.0;
+     G01 X50.0 Z-4.0 F0.2;
+    Z-15.0;
+         X37.0;
+
+      X35.0 Z-16.0;
+        Z-32.0;
+      X30.0;
+  Z-53.2;
+G01 X28.0;
+
+N600 Z5.0;
+(CIRCLE END)
